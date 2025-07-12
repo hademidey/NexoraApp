@@ -5,8 +5,8 @@ import Contacts from "./Contacts";
 export default function Footer() {
   return (
     <footer className="bg-blue-950 text-white mt-18">
-      <div className="items-center flex flex-col w-[90%] mx-auto justify-center shadow-md p-3 rounded-br-3xl rounded-bl-3xl  bg-[#F5FCFF] ">
-        <Logo size="text-3xl" colour="text-black" bold="font-bold" />
+      <div className="items-center flex flex-col w-[90%] md:w-[40%] mx-auto justify-center shadow-md p-3 rounded-br-3xl rounded-bl-2xl  bg-[#F5FCFF] ">
+        <Logo size="md:text-3xl text-2xl" colour="text-black" bold="font-bold" />
       </div>
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center pt-20">
         {/* About */}
