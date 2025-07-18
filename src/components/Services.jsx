@@ -28,7 +28,7 @@ export default function Services() {
       className="text-center pt-12 bg-[#F5FCFF] px-15"
       id="services"
     >
-      <span className="text-blue-700 font-semibold ">OUR SERVICES</span>
+      <span className="text-blue-700 font-bold text-2xl ">OUR SERVICES</span>
       <h2 className="font-semibold text-2xl mb-4">Services We Provide</h2>
       <div className="flex flex-col justify-center items-center md:flex-row md:gap-6">
         {ServiceCardInfo.map((service) => (
