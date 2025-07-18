@@ -6,12 +6,16 @@ export default function Footer() {
   return (
     <footer className="bg-blue-950 text-white mt-18">
       <div className="items-center flex flex-col w-[90%] md:w-[40%] mx-auto justify-center shadow-md p-3 rounded-br-3xl rounded-bl-2xl  bg-[#F5FCFF] ">
-        <Logo size="md:text-3xl text-2xl" colour="text-black" bold="font-bold" />
+        <Logo
+          size="md:text-3xl text-2xl"
+          colour="text-black"
+          bold="font-bold"
+        />
       </div>
       <div className="max-w-7xl mx-auto px-6 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-10 text-center pt-20">
         {/* About */}
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-lg font-bold mb-4">ABOUT US</h2>
+          <h2 className="text-lg font-bold mb-4 underline">ABOUT US</h2>
           <p className="text-sm text-gray-300  ">
             We have 20+ years of experience solving business challenges and
             positioning our clients for long-term success.
@@ -23,7 +27,7 @@ export default function Footer() {
 
         {/* Services */}
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-lg font-bold mb-4">SERVICES</h2>
+          <h2 className="text-lg font-bold mb-4 underline">SERVICES</h2>
           <ul className="space-y-2 text-sm text-gray-300">
             <li>Strategic Planning</li>
             <li>Market Analysis</li>
@@ -35,18 +39,17 @@ export default function Footer() {
 
         {/* Recent News */}
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-lg font-bold mb-4">RECENT NEWS</h2>
+          <h2 className="text-lg font-bold mb-4 underline">RECENT NEWS</h2>
           <ul className="space-y-3 text-sm text-gray-300">
             <li className="flex gap-2 justify-center pt-5">
               <div className="object-contain">
                 <img src="/img/footer1.png" alt="" />
               </div>
               <div className="flex flex-col ">
-                <strong className="text-white flex flex-col ">
+                <span className="text-white flex flex-col">
                   Providing all types of business
-                </strong>{" "}
-               
-                <span>15th Jan, 2025</span>
+                </span>
+                <span className="">15th Jan, 2025</span>
               </div>
             </li>
             <li className="flex gap-2 justify-center">
@@ -54,11 +57,10 @@ export default function Footer() {
                 <img src="/img/footer2.png" alt="" />
               </div>
               <div className=" flex flex-col">
-                <strong className="text-white">
+                <span className="text-white">
                   {" "}
                   People saying about business
-                </strong>{" "}
-                
+                </span>
                 <span>8th Jan, 2025</span>
               </div>
             </li>
@@ -67,7 +69,7 @@ export default function Footer() {
 
         {/* Newsletter */}
         <div className="flex flex-col justify-center items-center">
-          <h2 className="text-lg font-bold mb-4">NEWSLETTER</h2>
+          <h2 className="text-lg font-bold mb-4 underline">NEWSLETTER</h2>
           <p className="text-sm text-gray-300 mb-4">
             Subscribe for updates and discounts
           </p>
@@ -93,66 +95,6 @@ export default function Footer() {
         ©2025 Nexora Solution Inc. All rights reserved.
       </div>
     </footer>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
     // <footer className=" ">
     //   <div className="items-center flex flex-col w-[80%] mx-auto justify-center shadow-md p-5 rounded-br-xl rounded-bl-xl  bg-[#F5FCFF] ">
