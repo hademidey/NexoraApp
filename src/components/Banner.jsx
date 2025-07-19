@@ -14,7 +14,7 @@ export default function Banner() {
           <div className="absolute inset-0 bg-gradient-to-r from-gray-900 to-gray-950 opacity-95"></div>
         </div>
       </div>
-      <div className=" ml-10 md:ml-16">
+      <div className=" ml-6 md:ml-16">
         <div className="p-2 h-40 w-[331px] md:w-[900px] ">
           <span className="text-xl text-blue-700 md:text-3xl">Welcome To</span>
           <h1 className="text-6xl md:text-8xl">Nexora Solution Inc</h1>
