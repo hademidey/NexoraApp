@@ -46,7 +46,7 @@ export default function Header() {
             />
             <FiSearch onClick={handleOpenSearchbar} />
           </form>
-          <div className="p-1 bg-blue-700 lg:hidden">
+          <div className="p-1 items-center bg-blue-700 lg:hidden">
             <button
               className="w-6 h-4 relative text-white "
               onClick={toggleNavbar}
